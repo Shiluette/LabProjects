@@ -258,7 +258,6 @@ void CGameFramework::BuildObjects()
 	m_pd3dDeviceContext->PSSetConstantBuffers(PS_SLOT_COLOR, 1, &m_pd3dcbColor);
 }
 
-
 void CGameFramework::ReleaseObjects()
 {
 	if (m_pScene) m_pScene->ReleaseObjects();

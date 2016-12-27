@@ -1,2 +1,12 @@
-﻿  GameFramework.cpp
-  LabProject06.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects\LabProjects\x64\Debug\LabProject06.exe
+﻿  Mesh.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects\labprojects\labproject06\mesh.cpp(102): error C2512: 'CMesh': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects\labprojects\labproject06\mesh.h(33): note: 'CMesh' 선언을 참조하십시오.
+  GameFramework.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Scene.cpp
+  Player.cpp
+  Object.cpp
+  LabProject06.cpp
+  Camera.cpp
+  코드를 생성하고 있습니다...
