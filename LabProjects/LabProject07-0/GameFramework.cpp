@@ -250,11 +250,11 @@ void CGameFramework::BuildObjects()
 	bd.ByteWidth = sizeof(D3DXCOLOR);
 	bd.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
 	bd.CPUAccessFlags = D3D11_CPU_ACCESS_WRITE;
-	D3D11_SUBRESOURCE_DATA d3dSubResource;
+	/*D3D11_SUBRESOURCE_DATA d3dSubResource;
 	d3dSubResource.pSysMem = &d3dxcColor;
 	d3dSubResource.SysMemPitch = 0;
-	d3dSubResource.SysMemSlicePitch = 0;
-	m_pd3dDevice->CreateBuffer(&bd, &d3dSubResource, &m_pd3dcbColor);
+	d3dSubResource.SysMemSlicePitch = 0;*/
+	m_pd3dDevice->CreateBuffer(&bd, NULL, &m_pd3dcbColor);
 	m_pd3dDeviceContext->PSSetConstantBuffers(PS_SLOT_COLOR, 1, &m_pd3dcbColor);
 }
 
